@@ -1,12 +1,39 @@
-### Introduction
+---
+title: "README"
+output: github_document
+---
 
-This project aims to perform a bibliometric analysis to uncover research trends, collaboration patterns, and thematic areas within bibliographic data extracted from **Web of Science** and **Scopus** databases. The primary objective is to integrate, clean, and analyse metadata such as authorship, affiliations, and keywords, while also constructing collaboration networks for countries, institutions, and authors. Additionally, keyword co-occurrence networks are explored to identify prominent research topics.
+# Bibliometric Analysis Project
 
-### Key analyses
-1. Consolidation and cleaning of bibliographic data from multiple `.bib` files.  
-2. Summarisation of key bibliometric indicators, such as publication trends and authorship patterns.  
-3. Construction and visualisation of collaboration networks for countries, universities, and authors.  
-4. Identification of thematic areas through keyword co-occurrence analysis.  
+## Project Description
 
-### Packages usage
-The project utilises R packages, including `tidyverse` and `data.table` for data manipulation, `bibliometrix` for bibliometric analysis, `ggplot2` for visualisation, and `openxlsx` for exporting results.
+This project performs a bibliometric analysis using bibliographic data extracted from **Web of Science** and **Scopus**. The objective is to uncover research trends, collaboration patterns, and thematic areas by integrating, cleaning, and analysing metadata, such as authorship, affiliations, and keywords. The analysis also includes constructing collaboration networks for countries, institutions, and authors, as well as identifying prominent research topics through keyword co-occurrence analysis.
+
+## Key Analyses
+
+1. Consolidation and cleaning of bibliographic data from multiple `.bib` files.
+2. Summary of bibliometric indicators (e.g., publication trends, authorship patterns).
+3. Construction and visualisation of collaboration networks for countries, universities, and authors.
+4. Exploration of keyword co-occurrence networks to identify research themes.
+
+## Dependencies
+
+The project relies on the following R packages:
+
+- `rio`: Import/export of data.
+- `here`: File path management.
+- `tidyverse`: Data manipulation and visualisation.
+- `ggplot2`: Data visualisation.
+- `data.table`: Efficient data manipulation.
+- `dplyr`: Data wrangling.
+- `bibliometrix`: Bibliometric analysis.
+- `readxl`: Reading Excel files.
+- `tidyr`: Data tidying.
+- `openxlsx`: Exporting results to Excel.
+
+Ensure all required packages are installed using the `pacman` package loader:
+```r
+pacman::p_load(
+  rio, here, tidyverse, ggplot2, data.table, dplyr, bibliometrix, 
+  readxl, tidyr, openxlsx
+)
