@@ -18,11 +18,4 @@ This project aims to conduct a comprehensive **bibliometric analysis** using bib
 - **`bibliometrix`**: Core package for bibliometric analysis.
 - **`ggplot2`**: Visualisation of trends and insights.
 - **`openxlsx`**: Exporting data to Excel files.
-- **`splitstackshape`**: Handling complex data structures for affiliations.
-
-## Data Sources
-
-The bibliographic data used in this analysis was obtained from:
-1. Web of Science
-2. Scopus
-
+- **`splitstackshape`**: Handling complex data structures for affiliations
