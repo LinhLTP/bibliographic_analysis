@@ -20,7 +20,7 @@ This project aims to conduct a comprehensive bibliometric analysis using bibliog
 - **`openxlsx`**: Exporting data to Excel files.
 - **`splitstackshape`**: Handling complex data structures for affiliations
 
-## Packages
+## Search Expression
 
 Search expressions were applied to Web of Science, Scopus, and Google Scholar:  
 
