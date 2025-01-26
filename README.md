@@ -11,7 +11,7 @@ This project aims to conduct a comprehensive **bibliometric analysis** using bib
 - **Network Analysis**: 
   Visualisation of collaboration networks (countries, universities, authors) and keyword co-occurrence networks.
 
-## Tools and Packages
+## Packages
 
 - **`tidyverse`**: Data manipulation and visualisation.
 - **`data.table`**: Efficient data handling.
