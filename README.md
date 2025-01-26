@@ -1,6 +1,6 @@
 ## Overview
 
-This project aims to conduct a comprehensive **bibliometric analysis** using bibliographic data extracted from **Web of Science** and **Scopus** databases. The analysis focuses on identifying research trends, collaboration patterns, and thematic areas within the data. Key outcomes include the generation of summary metrics, collaboration networks, and keyword co-occurrence insights.
+This project aims to conduct a comprehensive bibliometric analysis using bibliographic data extracted from Web of Science and Scopus databases. The analysis focuses on identifying research trends, collaboration patterns, and thematic areas within the data. Key outcomes include the generation of summary metrics, collaboration networks, and keyword co-occurrence insights.
 
 ## Key Analyses
 
@@ -19,3 +19,9 @@ This project aims to conduct a comprehensive **bibliometric analysis** using bib
 - **`ggplot2`**: Visualisation of trends and insights.
 - **`openxlsx`**: Exporting data to Excel files.
 - **`splitstackshape`**: Handling complex data structures for affiliations
+
+## Packages
+
+Search expressions were applied to Web of Science, Scopus, and Google Scholar:  
+
+`UBDC OR Urban Big Data Centre AND [insert the name of the dataset provided by UBDC]`
