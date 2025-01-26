@@ -23,6 +23,6 @@ This project aims to conduct a comprehensive **bibliometric analysis** using bib
 ## Data Sources
 
 The bibliographic data used in this analysis was obtained from:
-1. **Web of Science**  
-2. **Scopus**
+1. Web of Science
+2. Scopus
 
