@@ -1,29 +1,12 @@
----
-title: "README"
-output: html_document
-date: "2025-01-26"
----
+### Introduction
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+This project aims to perform a bibliometric analysis to uncover research trends, collaboration patterns, and thematic areas within bibliographic data extracted from **Web of Science** and **Scopus** databases. The primary objective is to integrate, clean, and analyse metadata such as authorship, affiliations, and keywords, while also constructing collaboration networks for countries, institutions, and authors. Additionally, keyword co-occurrence networks are explored to identify prominent research topics.
 
-## R Markdown
+### Key analyses
+1. Consolidation and cleaning of bibliographic data from multiple `.bib` files.  
+2. Summarisation of key bibliometric indicators, such as publication trends and authorship patterns.  
+3. Construction and visualisation of collaboration networks for countries, universities, and authors.  
+4. Identification of thematic areas through keyword co-occurrence analysis.  
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Packages usage
+The project utilises R packages, including `tidyverse` and `data.table` for data manipulation, `bibliometrix` for bibliometric analysis, `ggplot2` for visualisation, and `openxlsx` for exporting results.
